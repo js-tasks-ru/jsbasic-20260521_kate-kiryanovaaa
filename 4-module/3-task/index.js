@@ -25,7 +25,7 @@ function highlight(table) {
         row.classList.add('unavailable');
       }
     } else {
-      row.setAttribute('hidden', '');
+      row.hidden = true;
     }
 
   }
